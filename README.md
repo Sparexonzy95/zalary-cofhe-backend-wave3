@@ -443,7 +443,7 @@ Full security notes:
 | Wave 1 | Ideation and architecture | Completed |
 | Wave 2 | Confidential payroll protocol | Completed |
 | Wave 3 | Backend integration flow | This submission |
-| Wave 4 | Full client/backend production hardening | Planned |
+| Wave 4 | production-grade UI/UX | Planned |
 | Wave 5 | Mainnet readiness and institutional onboarding | Planned |
 
 ---
