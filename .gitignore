@@ -1,0 +1,49 @@
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# CoFHE / private key material
+.cofhe-home/
+.cofhesdk/
+**/cofhesdk-keys.json
+**/.cofhe-home/
+**/.cofhesdk/
+
+# Node / worker
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local combined review dumps
+zalary-backend-public-code-combined.txt
+backend-code-combined.txt
+project-tree-clean.txt
+
+# Celery local schedule variants
+celerybeat-schedule.*
+
+# Build/cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid

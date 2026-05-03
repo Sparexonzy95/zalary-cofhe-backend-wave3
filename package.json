@@ -1,0 +1,16 @@
+{
+  "name": "zalary-cofhe-real-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Real CoFHE test helpers for Zalary on Base Sepolia",
+  "scripts": {
+    "cofhe:account": "node cofhe_cli.mjs account",
+    "cofhe:permit": "node cofhe_cli.mjs permit-self"
+  },
+  "dependencies": {
+    "@cofhe/sdk": "^0.4.0",
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  }
+}
